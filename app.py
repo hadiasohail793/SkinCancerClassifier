@@ -18,6 +18,39 @@ st.set_page_config(
 )
 
 # ---------------------------------------------------
+# CUSTOM STYLE
+# ---------------------------------------------------
+st.markdown(
+    """
+    <style>
+    /* Reduce overall font size */
+    html, body, [class*="css"]  {
+        font-size: 14px !important;
+    }
+
+    /* Smaller titles */
+    h1, h2, h3 {
+        font-size: 18px !important;
+    }
+
+    /* Sidebar compact */
+    .css-1d391kg, .css-1v3fvcr {
+        font-size: 13px !important;
+    }
+
+    /* Reduce padding/margins */
+    .block-container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# ---------------------------------------------------
 # LOAD MODELS
 # ---------------------------------------------------
 
