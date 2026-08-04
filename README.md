@@ -19,6 +19,8 @@ Skin cancer is among the most common forms of cancer worldwide, and early diagno
 This project presents a hybrid Artificial Intelligence approach for automated skin lesion classification. Instead of using an end-to-end CNN classifier, the system utilizes **MobileNetV2** as a feature extractor to generate deep image representations. These extracted features are then classified using a **Support Vector Machine (SVM)** to identify different categories of skin lesions.
 
 To make the system user-friendly, a **Streamlit web interface** was developed and tested locally using **Visual Studio Code**, allowing users to upload dermoscopic images, obtain predictions, and view brief disease-related information.
+[streamlit-app-2026-08-04-21-59-27.webm](https://github.com/user-attachments/assets/f3ac2219-b258-4b10-ab51-8efb27dbc5f4)
+
 
 ---
 
