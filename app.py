@@ -22,4 +22,3 @@ if uploaded_file is not None:
 
     prediction = svm_model.predict(features)
     st.write("Prediction:", prediction[0])
-
