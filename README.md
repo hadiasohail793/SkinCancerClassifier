@@ -174,52 +174,10 @@ The application was developed and tested locally using:
 - Python
 - Streamlit
 
-Run the application locally using:
 
-```bash
-streamlit run app.py
-```
-
-Users can:
-
-- Upload a dermoscopic skin lesion image.
-- Receive the predicted lesion category.
-- View disease-related information.
-- Test the trained MobileNetV2 + SVM model.
-
----
-
-# 🚀 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Skin-Cancer-Classification.git
-```
-
-Go to the project directory
-
-```bash
-cd Skin-Cancer-Classification
-```
-
-Install required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the Streamlit application
-
-```bash
-streamlit run app.py
-```
-
----
 
 # 💻 Usage
 
-1. Launch the Streamlit application.
 2. Upload a dermoscopic skin lesion image.
 3. The image is preprocessed.
 4. MobileNetV2 extracts deep image features.
