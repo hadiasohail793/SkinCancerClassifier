@@ -160,9 +160,6 @@ Notebook Location
 
 ```
 notebook/SkinCancerClassification.ipynb
-```
-
-If a public Colab notebook is available, add the link here.
 
 ---
 
